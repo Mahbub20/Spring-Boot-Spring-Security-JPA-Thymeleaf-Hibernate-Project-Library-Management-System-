@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+<div th:replace="admin/headerImports"></div>
+</head>
+
+<body>
+
+<div th:replace="admin/navbar"></div>
+
+<div class="container">
+
+  <div class="jumbotron">
+   <h3>Add New Book</h3>
+  </div>
+  
+</div>
+
+<form class="form" th:object="${book}" th:method="post">
+ <div th:replace="admin/library/addBookForm"></div>
+<div class="form-row text-center">
+    <div class="col-12">
+        <button type="submit" class="btn btn-primary">Add Book</button>
+    </div>
+ </div>
+
+</form>
+
+</body>
+
+</html>

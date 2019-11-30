@@ -1,0 +1,3 @@
+delete from book;
+insert into book (book_title, isbin, authors, publish_date, publisher, price, stock) values ('Three Detectives', '9898989898', 'Shamshuddin Nawab', '2018-10-14', 'Sheba Prokashoni', 200.50,50);
+insert into book (book_title, isbin, authors, publish_date, publisher, price, stock) values ('General Knowledge', '9898989845', 'Shakhawat Hossain', '2018-02-14', 'Shobdo Shilpo', 300.50,70);
